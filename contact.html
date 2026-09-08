@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Kapuluan</title>
+<meta name="description" content="Get in touch with the Kapuluan travel journal.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">LAKBAY DIARY<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="blog.html">Blog</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom:20px;">
+      <div class="wrap">
+        <p class="hero-eyebrow-note">Get in touch</p>
+        <h1 style="max-width:14ch;">Spot an outdated detail? Say so.</h1>
+        <p class="lede">This form is a front-end demo — it won't send a real email yet — but the layout is ready to wire up to any form backend.</p>
+      </div>
+    </section>
+    <section style="padding-top:10px;">
+      <div class="wrap two-col">
+        <div>
+          <form id="contact-form">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button class="btn" type="submit">Send message</button>
+            <p id="form-note" style="display:none; margin-top:14px; color:var(--leaf); font-weight:600;"></p>
+          </form>
+        </div>
+        <div class="sidebar-card">
+          <h4>Quick links</h4>
+          <dl>
+            <dt>Journal</dt>
+            <dd><a href="blog.html">Read every destination</a></dd>
+            <dt>About</dt>
+            <dd><a href="about.html">Who writes LAKBAY DIARY</a></dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">LAKBAY DIARY — field notes from the Philippines' best islands.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="blog.html">All destinations</a></li>
+            <li><a href="about.html">About this blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Popular reads</h4>
+          <ul>
+            <li><a href="posts/boracay.html">Boracay, Aklan</a></li>
+            <li><a href="posts/el-nido.html">El Nido, Palawan</a></li>
+            <li><a href="posts/siargao.html">Siargao surf guide</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 LAKBAY DIARY. Student project — not a commercial travel service.</span>
+        <span>Written by Regino Wesley</span>
+      </div>
+    </div>
+  </footer>
+<script src="js/main.js"></script>
+</body>
+</html>
